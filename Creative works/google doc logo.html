@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Doc Logo</title>
+<style type="text/css">
+.google_doc_wrapper {
+    position: relative;
+    background: rgb(39, 126, 219);
+    width: 190px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    overflow: hidden;
+}
+.google_doc_wrapper::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    border-width: 0 65px 65px 0 ;
+    border-color: transparent #ffffff #80b3e9 transparent;
+    border-style: solid dashed;
+}
+.google_doc_wrapper::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 65px;
+    right: 0;
+    border-width: 65px 0 0 65px;
+    border-color: #1c61aa transparent;
+    border-style: solid dashed;
+}
+.arrow {        
+    background-color: #e9f1fb;
+    width: 80px;
+    height: 35px;
+    margin-top: 122px;
+}
+.arrow::after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    border-width: 40px 0px 40px 40px;
+    border-style: solid;
+    border-color: transparent #e9f1fb;
+}
+</style>
+</head>
+<body>
+
+
+<div class="google_doc_wrapper">
+    <div class="arrow">
+     <div>   
+</div>
+</body>
+
+</html>
